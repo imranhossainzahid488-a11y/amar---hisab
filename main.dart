@@ -34,7 +34,7 @@ class _AmarHisabAppState extends State<AmarHisabApp> {
   Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'Amar Hisab',
-    theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff159447)),
+    theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor:Colors.deepPurple), Color(0xff159447)),
       scaffoldBackgroundColor: const Color(0xfff6f8fb), useMaterial3: true,
       fontFamily: bangla ? null : 'Roboto'),
     home: HomePage(bangla: bangla, onLanguageChanged: (v) => setState(() => bangla = v)),
